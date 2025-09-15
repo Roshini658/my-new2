@@ -1,0 +1,18 @@
+class Factory:
+    a=12
+    def hello():
+        print("hello")
+print(Factory.a)
+Factory.hello()
+class Animal:
+    a=12
+    def hi():
+        print("hola")
+print(Animal.a)
+Animal.hi()
+class Animal:
+    a=13
+    def hello():
+        print("hola")
+print(Animal.a)
+
